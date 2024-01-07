@@ -16,5 +16,5 @@ $ pnpm add @fontsource/roboto
 ```
 ## 실행
 ```bash
-pnpm run dev
+$ pnpm run dev
 ```
