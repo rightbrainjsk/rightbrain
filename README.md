@@ -1,1 +1,1 @@
-# rightbrain
+# 라이트브레인
