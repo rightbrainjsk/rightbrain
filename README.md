@@ -14,7 +14,25 @@ $ pnpm install
 $ pnpm add @mui/material @emotion/react @emotion/styled
 $ pnpm add @fontsource/roboto
 ```
+## VSCODE 확장프로그램  
+ESLint  
+Prettier - Code formatter  
+## VSCODE 설정
+FORMAT ON SAVE : true  
 ## 실행
 ```bash
 $ pnpm run dev
+```
+## 폴더구조
+```bash
+├── node_modules
+│   ├── train
+│   ├── test
+│   └── validation
+├── public
+│   ├── train.py
+│   ├── classify.py
+│   ├── model.py
+│   └── dataset.py
+└── src
 ```

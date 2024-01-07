@@ -1,0 +1,25 @@
+{
+  "printWidth": 80,
+	//한줄 최대 80자문자 (초과시 다음줄로) 
+  "tabWidth": 2,
+	//탭 공백 2
+  "semi": true,
+	//문장 끝에 세미콜론(;)을 항상 사용
+  "endOfLine": "lf",
+	//줄 끝 문자로 LF (Line Feed)를 사용하도록 설정
+  "bracketSpacing": true,
+	//중괄호 {} 사이에 공백을 추가하도록 설정 (ex.{ foo: bar })
+  "singleQuote": false,
+	//문자열에 더블 쿼트(")를 사용
+  "jsxSingleQuote": false,
+	//JSX에서 문자열에 더블 쿼트(")를 사용하도록 설정
+  "trailingComma": "all",
+	//다중 라인 객체나 배열에서 마지막 항목 뒤에 쉼표를 항상 추가하도록 설정
+  "useTabs": false,
+	//탭 문자를 사용하지 않고, 대신 공백을 사용하도록 설정
+  "arrowParens": "always",
+	//화살표 함수의 매개변수가 하나일 때도 괄호를 항상 사용하도록 설정
+  "quoteProps": "as-needed"
+	//객체 속성의 키가 유효한 JavaScript 변수 이름일 경우 따옴표를 생략하도록 설정
+	//그렇지 않은 경우에만 따옴표를 추가
+}
