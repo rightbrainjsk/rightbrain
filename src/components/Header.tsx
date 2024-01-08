@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <>
-            <header>
+            <header className="test">
                 <ol>
                     {Category.map((item, index) => (
                         <li key={index}>
