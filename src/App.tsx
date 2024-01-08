@@ -8,7 +8,6 @@ import Skill from "@/pages/skill/Index"
 import Team from "@/pages/team/Index"
 import NotFound from "@/pages/error/Index"
 
-
 function App() {
   return (
     <>
