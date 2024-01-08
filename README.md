@@ -14,6 +14,10 @@ $ pnpm install
 $ pnpm add @mui/material @emotion/react @emotion/styled
 $ pnpm add @fontsource/roboto
 ```
+## 스토리북 설치
+```bash
+$ npx sb init --builder @storybook/builder-vite
+```
 ## VSCODE 확장프로그램  
 ESLint  
 Prettier - Code formatter  
@@ -22,17 +26,17 @@ FORMAT ON SAVE : true
 ## 실행
 ```bash
 $ pnpm run dev
+$ pnpm run storybook
 ```
 ## 폴더구조
 ```bash
+├── .storybook
 ├── node_modules
-│   ├── train
-│   ├── test
-│   └── validation
 ├── public
-│   ├── train.py
-│   ├── classify.py
-│   ├── model.py
-│   └── dataset.py
 └── src
+    ├── assets
+    ├── components
+    ├── mock 
+    ├── pages
+    └── stories
 ```
